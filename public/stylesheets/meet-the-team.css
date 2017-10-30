@@ -1,0 +1,75 @@
+.top-banner-two {
+    background-image: url(../images/management-banner.png);
+}
+
+.team-carousel {
+    padding-bottom: 87px;
+}
+
+.details-carousel {
+    padding-top: 13px;
+}
+
+.details-carousel button.profile-button {
+    height: 40px;
+    width: 160px;
+    border: 1px solid #00AEEF;
+    border-radius: 3px;
+    color: #00AEEF;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.details-carousel button.profile-button:hover {
+    background-color: #00AEEF;
+    color: #FFFFFF;
+}
+
+.details-carousel .blockquote p {
+    color: #424242;
+    font-size: 18px;
+    font-style: oblique;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.pop-carousel .pop-title {
+    margin: 5px 0px;
+}
+
+.pop-carousel .pop-title span {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.pop-carousel .fa {
+    color: #00AEEF;
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.pop-carousel .pop-details {
+    max-height: 400px;
+    overflow: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .details-carousel {
+        height: 236px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .details-carousel {
+        height: 318px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .details-carousel {
+        height: 386px;
+    }
+}

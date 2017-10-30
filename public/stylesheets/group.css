@@ -1,0 +1,24 @@
+.top-banner-two {
+    background-image: url(../images/group-banner.png);
+}
+
+.company-list h2 {
+    color: #424242;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49px;
+    margin-bottom: 25px;
+}
+
+.company-list .social img {
+    width: 160px;
+}
+
+.company-list .social i {
+    color: #ccc;
+    font-size: 25px;
+}
+
+.company-list .social i:hover {
+    color: #00AEEF;
+}

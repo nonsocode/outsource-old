@@ -1,0 +1,25 @@
+.top-banner-two {
+    background-image: url(../images/coc-banner.png);
+}
+
+.coc-main {
+    margin: 60px auto;
+}
+
+.coc-text {
+    margin-bottom: 54px;
+}
+
+.coc-text h2 {
+    color: #424242;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49px;
+}
+
+.coc-text p {
+    color: #424242;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}

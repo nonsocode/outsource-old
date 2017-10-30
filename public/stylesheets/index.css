@@ -1,0 +1,247 @@
+.main-nav .dropdown-menu:before {
+    border-bottom: 5px solid white;
+}
+
+.top-banner .jumbotron {
+    height: 600px;
+    min-height: 600px;
+    background-image: url(../images/banner.png);
+    padding-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-banner .jumbotron .container,
+.top-banner .jumbotron .row {
+    height: 100%;
+}
+
+.banner-circle {
+    margin-bottom: -130px;
+    text-align: center;
+}
+
+.banner-circle img {
+    width: 297px;
+    height: auto;
+}
+
+.banner-copy {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.banner-copy .top-text {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    display: block;
+}
+
+.banner-copy .middle-text {
+    color: #FFFFFF;
+    font-size: 48px;
+    line-height: 57px;
+    font-weight: 700;
+}
+
+.banner-copy .middle-text .sub {
+    color: #00AEEF;
+}
+
+.banner-copy .bottom-text {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    display: block;
+}
+
+.what-we-do {
+    padding-top: 169px;
+}
+
+.what-we-do .container {
+    padding: 68px 15px;
+    /*    height: 300px;*/
+}
+
+.what-we-do .container .row {
+    /*    height: 100%;*/
+}
+
+.what-we-do .left-text {
+    color: #595959;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 55px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.what-we-do .right-text {
+    color: #696868;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.our-approach .container {
+    padding: 68px 15px;
+    text-align: center;
+}
+
+.our-approach .left-text {
+    margin-bottom: 20px;
+}
+
+.our-approach .left-text p {
+    color: #585858;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 55px;
+    text-align: right;
+    margin: 0px;
+}
+
+.our-approach .left-text p span {
+    color: #00AEEF;
+    font-weight: 400;
+}
+
+.our-approach .right-text {
+    color: #696868;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.who-we-are {
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/middlebg.png);
+    background-position: center bottom;
+}
+
+.who-we-are .container {
+    /*    height: 100%;*/
+    padding-bottom: 127px;
+    padding-top: 375px;
+}
+
+.who-we-are .container .row {
+    /*    height: 100%;*/
+}
+
+.who-we-are .left-text {
+    color: #FFFFFF;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.who-we-are .right-text {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+}
+
+.who-we-are .right-text a.learn-more {
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.who-we-are .right-text a.learn-more:hover {
+    color: #FFFFFF;
+}
+
+.clients {
+    padding-top: 40px;
+}
+
+.clients .container {
+    /*    height: 100%;*/
+    padding-bottom: 113px;
+    padding-top: 52px;
+}
+
+.clients .container .row {
+    /*    height: 100%;*/
+}
+
+.clients .left-text {
+    color: #585858;
+    font-size: 55px;
+    line-height: 70px;
+    text-align: right;
+}
+
+.clients .right-list-title {
+    color: #696868;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.clients .right-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.clients .right-list li {
+    color: #999999;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.clients .right-list li:hover {
+    font-size: 31px;
+    color: #00AEEF;
+}
+
+@media (min-width: 768px) {
+    .banner-circle img {
+        width: 362px;
+        height: auto;
+    }
+
+    .banner-copy {
+        text-align: center;
+        margin-bottom: 18px;
+    }
+
+    .banner-copy .top-text {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 33px;
+        display: block;
+    }
+
+    .banner-copy .middle-text {
+        font-size: 64px;
+        line-height: 77px;
+        font-weight: 700;
+    }
+
+    .banner-copy .bottom-text {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 33px;
+        display: block;
+    }
+
+    .our-approach .left-text p {
+        color: #585858;
+        font-size: 48px;
+        line-height: 66px;
+    }
+}
