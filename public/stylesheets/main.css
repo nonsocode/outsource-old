@@ -30,6 +30,22 @@
 
 /* bootstrap base code overide */
 
+/* general */
+
+a.learn-more {
+    color: #00AEEF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+a.learn-more:hover {
+    color: skyblue;
+}
+
+/* general */
+
 .pop-details::-webkit-scrollbar {
     width: 10px;
 }
@@ -50,6 +66,11 @@
     background-color: transparent;
     padding-top: 1px;
     padding-bottom: 1px;
+}
+
+.main-nav .navbar-brand img {
+    width: 160px;
+    height: auto;
 }
 
 .main-nav .nav-item button {
@@ -142,13 +163,15 @@
 }
 
 .banner-text h2 {
-    /*    color: #00AEEF;*/
+    color: #00AEEF;
     font-size: 48px;
     font-weight: 400;
     line-height: 66px;
     padding: 0 10px;
+    /*
     color: #FFFFFF;
     background-color: #007bff;
+*/
 }
 
 .top-info {
@@ -249,6 +272,14 @@
     margin-left: -15px;
 }
 
+.footer .social .nav a {
+    color: #00AEEF;
+}
+
+.footer .social .nav a:hover {
+    color: #007bff;
+}
+
 .footer .number span {
     color: #FFFFFF;
     font-size: 24px;
@@ -280,4 +311,9 @@
 
 .footer .links .nav a {
     padding-left: 10px;
+    color: #00AEEF;
+}
+
+.footer .links .nav a:hover {
+    color: skyblue;
 }
