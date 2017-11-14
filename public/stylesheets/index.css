@@ -3,8 +3,8 @@
 }
 
 .top-banner .jumbotron {
-    height: 600px;
-    min-height: 600px;
+    height: 530px;
+    min-height: 530px;
     background-image: url(../images/banner.png);
     padding-bottom: 0px;
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@
 }
 
 .banner-circle img {
-    width: 297px;
+    width: 250px;
     height: auto;
 }
 
@@ -35,14 +35,14 @@
     color: #FFFFFF;
     font-size: 24px;
     font-weight: 500;
-    line-height: 33px;
+    line-height: 30px;
     display: block;
 }
 
 .banner-copy .middle-text {
     color: #FFFFFF;
     font-size: 48px;
-    line-height: 57px;
+    line-height: 50px;
     font-weight: 700;
 }
 
@@ -54,7 +54,7 @@
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 500;
-    line-height: 27px;
+    line-height: 25px;
     display: block;
 }
 
@@ -225,8 +225,8 @@
     }
 
     .banner-copy .middle-text {
-        font-size: 64px;
-        line-height: 77px;
+        font-size: 63px;
+        line-height: 75px;
         font-weight: 700;
     }
 

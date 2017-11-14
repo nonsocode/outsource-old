@@ -28,6 +28,42 @@
     color: #00b6f3;
 }
 
+@media (max-width: 992px) {
+    .main-nav .navbar-nav {
+        padding-bottom: 10px;
+    }
+
+    .main-nav.navbar-dark .navbar-nav {
+        border: 1px solid #ddd;
+        background-color: #fff;
+    }
+
+    .main-nav.navbar-dark .navbar-nav .nav-link {
+        color: rgba(0, 0, 0, .5);
+    }
+
+    .main-nav.navbar-dark .navbar-nav .nav-link:focus,
+    .main-nav.navbar-dark .navbar-nav .nav-link:hover {
+        color: #00b6f3;
+    }
+
+    .main-nav.navbar-dark .navbar-nav .active > .nav-link,
+    .main-nav.navbar-dark .navbar-nav .nav-link.active,
+    .main-nav.navbar-dark .navbar-nav .nav-link.show,
+    .main-nav.navbar-dark .navbar-nav .show > .nav-link {
+        color: #00b6f3;
+    }
+
+    .main-nav.navbar-dark .dropdown-menu {
+        border: 0px;
+        padding-top: 0px;
+    }
+
+    .main-nav.navbar-dark .dropdown-menu .dropdown-item {
+        padding: 12px 30px;
+    }
+}
+
 /* bootstrap base code overide */
 
 /* general */
