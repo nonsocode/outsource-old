@@ -8,6 +8,7 @@
 
 .details-carousel {
     padding-top: 13px;
+    overflow: auto;
 }
 
 .details-carousel button.profile-button {
@@ -58,18 +59,18 @@
 
 @media only screen and (min-width: 768px) {
     .details-carousel {
-        height: 236px;
+        height: 223px;
     }
 }
 
 @media only screen and (min-width: 992px) {
     .details-carousel {
-        height: 318px;
+        height: 302px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .details-carousel {
-        height: 386px;
+        height: 367px;
     }
 }

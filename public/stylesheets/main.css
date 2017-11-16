@@ -82,17 +82,20 @@ a.learn-more:hover {
 
 /* general */
 
-.pop-details::-webkit-scrollbar {
+.pop-details::-webkit-scrollbar,
+.details-carousel::-webkit-scrollbar {
     width: 10px;
 }
 
-.pop-details::-webkit-scrollbar-track {
+.pop-details::-webkit-scrollbar-track,
+.details-carousel::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background-color: lightgrey;
     border-radius: 10px;
 }
 
-.pop-details::-webkit-scrollbar-thumb {
+.pop-details::-webkit-scrollbar-thumb,
+.details-carousel::-webkit-scrollbar-thumb {
     background-color: grey;
     outline: 1px solid slategrey;
     border-radius: 10px;
