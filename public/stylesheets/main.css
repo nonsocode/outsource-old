@@ -112,7 +112,8 @@ a.learn-more:hover {
     height: auto;
 }
 
-.main-nav .nav-item button {
+.main-nav .nav-item button,
+.main-nav .nav-item a.btn {
     height: 43px;
     width: 156px;
     border: 1px solid #00AEEF;
@@ -120,9 +121,11 @@ a.learn-more:hover {
     border-radius: 3px;
     cursor: pointer;
     background-color: transparent;
+    line-height: 26px;
 }
 
-.main-nav .nav-item button:hover {
+.main-nav .nav-item button:hover,
+.main-nav .nav-item a.btn:hover {
     background-color: #00AEEF;
     border: 1px solid #00AEEF;
     color: #FFFFFF;
