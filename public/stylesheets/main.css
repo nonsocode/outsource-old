@@ -80,6 +80,10 @@ a.learn-more:hover {
     color: skyblue;
 }
 
+#contactModal h3 {
+    color: #17a2b8;
+}
+
 /* general */
 
 .pop-details::-webkit-scrollbar,
@@ -223,6 +227,13 @@ a.learn-more:hover {
 .top-info h2 {
     color: #424242;
     font-size: 36px;
+    font-weight: 400;
+    line-height: 49px;
+}
+
+.top-info h3 {
+    color: #424242;
+    font-size: 25px;
     font-weight: 400;
     line-height: 49px;
 }
