@@ -10,7 +10,7 @@ if(isset($_POST)){
     $smtp_password = "automailer*123#";
     $smtp_port = 465;
     $smtp_secure= "ssl";
-    $receive_email= "info@outsource.ng";
+    $receive_email= "info@outsourceglobal.com";
     $email_name= "Outsource Group";
     //POSTED VALUES
     $fullname= trim($_POST['contactName']);
