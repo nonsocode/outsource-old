@@ -84,6 +84,17 @@ a.learn-more:hover {
     color: #17a2b8;
 }
 
+.partners {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.partners img {
+    height: 70px;
+    margin-bottom: 50px;
+}
+
 /* general */
 
 .pop-details::-webkit-scrollbar,
