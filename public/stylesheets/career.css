@@ -48,9 +48,7 @@
     box-shadow: 0px 10px 12px 3px rgba(0, 0, 0, 0.4);
 }
 
-.career-testimonials .card.middle {
-        margin-top: 100px;
-}
+
 
 .career-testimonials .card .card-body {
     padding-bottom: 30px;
@@ -128,4 +126,26 @@
     font-size: 14px;
     line-height: 30px;
     text-align: center;
+}
+
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 3;
+    }
+    .career-testimonials .card.middle {
+    margin-top: 100px;
+}
 }
