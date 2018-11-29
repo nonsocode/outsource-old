@@ -73,10 +73,10 @@
                 <div class="row">
                     <div class="col-md-5">
                         <div class="main-carousel">
-                            <div><img src="images/amal-big.png" alt="..." class="img-thumbnail"></div>
-                            <div><img src="images/peter-big.png" alt="..." class="img-thumbnail"></div>
-                            <div><img src="images/nusaibah-big.png" alt="..." class="img-thumbnail"></div>
-                            <div><img src="images/andrew-big.png" alt="..." class="img-thumbnail"></div>
+                            <div><img src="images/amal.png" alt="..." class="img-thumbnail slide-image"></div>
+                            <div><img src="images/peter-big.png" alt="..." class="img-thumbnail slide-image"></div>
+                            <div><img src="images/nusaibah-big.jpg" alt="..." class="img-thumbnail slide-image"></div>
+                            <div><img src="images/andrew-big.png" alt="..." class="img-thumbnail slide-image"></div>
                         </div>
                     </div>
                     <div class="col-md-7">
@@ -111,10 +111,10 @@
                             </div>
                         </div>
                         <div class="nav-carousel">
-                            <div><img src="images/amal.png" alt="..." class="img-thumbnail"></div>
-                            <div><img src="images/peter.png" alt="..." class="img-thumbnail"></div>
-                            <div><img src="images/Nusaibar.png" alt="..." class="img-thumbnail"></div>
-                            <div><img src="images/Andrews.png" alt="..." class="img-thumbnail"></div>
+                            <div class="control slide-image"><img src="images/amal.png" alt="..." class="img-thumbnail"></div>
+                            <div class="control slide-image"><img src="images/peter.png" alt="..." class="img-thumbnail"></div>
+                            <div class="control slide-image"><img src="images/nusaibah-big.jpg" alt="..." class="img-thumbnail"></div>
+                            <div class="control slide-image"><img src="images/Andrews.png" alt="..." class="img-thumbnail"></div>
                         </div>
                     </div>
                 </div>
@@ -309,7 +309,7 @@
                 var recipient = button.data('staff')
                 var modal = $(this)
                 if (recipient === 'amal') {
-                    modal.find('.pop-image').attr("src", "images/amal-big.png");
+                    modal.find('.pop-image').attr("src", "images/amal.png");
                     modal.find('.pop-title').html('<span>Amal Hassan,</span> Chief Executive Officer');
                     modal.find('.pop-details').text(`Amal is a visionary entrepreneur with a passion to contribute positively to the IT industry of Nigeria, which led her to setup the first organized IT training institution in Kano, Northern Nigeria in 2003. She then went on to run the state-of- the-art training institute, an NIIT franchisee in Kano. Under her leadership NIIT Kano has grown into a reference institution for qualitative IT skills acquisition, training and systems analysis throughout northern Nigeria. She re-capitalized NIIT Kano in 2005 and initiated a move towards expansion and business development; in the process rebranding the institute to Nestrust. Her quest for value addition through business enterprises and for contributing towards the emancipation of northern Nigeria lead her in 2008 to develop the blueprint for Outsource Global, a global services company offering business process outsourcing and contact centre solutions based in northern Nigeria. Amal has a Bachelor of Science in Business Administration from Bayero University Kano and a Master degree in Business Administration from the same university. She has immense exposure to the IT industry and has undergone various IT courses and leadership trainings. She currently serves as a Director in Parkway Projects Ltd, Healthstation Ltd, Nestrust Institute of IT, and is the CEO and Managing Partner of Outsource Global.`);
                 } else if (recipient === 'peter') {
@@ -317,7 +317,7 @@
                     modal.find('.pop-title').html('<span>Peter Oriabure,</span> Head of Infrastructure and Technology');
                     modal.find('.pop-details').text(`Peter is a thoroughbred ICT / Project Management Professional with over 18 years experience in managing/integrating Telecoms, IT and Enterprise Projects; with strong understanding of I.T Convergence, Cloud-Computing, DataCenter, Security, Virtualization (ESXi and Hyper-V), Big Data, Storage (SAN & NAS), IoT & IoET, Microsoft Azure and Hadoop. He holds a BSc in Mathematics & Computer from the Ambrose Alli University and an MBA (International Finance) from the University of Calabar. He is a Certified Information Systems Auditor (CISA), Certified in the Governance of Enterprise IT (CGEIT), and Certified in Risk and Information Systems Control (CRISC). He was Chief Technology Officer (CTO) at Ixactis Business Group; He also worked as an IT / Solution Manager in the Enterprise Business Unit of Huawei Technologies. A Professional member of ISACA (Information Systems Audit and Control Association), Project Management Institute (PMI), Computer Professionals Registration Council of Nigeria (CPN), Nigeria Computer Society (NCS) and IEEE (Institute of Electrical and Electronics Engineers). Peter is presently the Head of Infrastructure and Technology Unit at Outsource Global.`);
                 } else if (recipient === 'nusaibah') {
-                    modal.find('.pop-image').attr("src", "images/nusaibah-big.png");
+                    modal.find('.pop-image').attr("src", "images/nusaibah-big.jpg");
                     modal.find('.pop-title').html('<span>Nusaibah Kofar-Naisa,</span> Chief Operating Officer');
                     modal.find('.pop-details').text(`Nusaibah Kofar-Naisa is the Chief Operations Officer at Outsource Global.  She holds a degree in Political Science from Duke University (United States) and has experience working for American and Nigerian startups as well as for Amazon.com at their headquarters in Seattle, USA.`);
                 } else if (recipient === 'michael') {

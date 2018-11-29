@@ -1,0 +1,12 @@
+.gallery-columns{
+    column-count: 4;
+}
+@media screen and (max-width: 768px){
+    .gallery-columns{
+        column-count: 2;
+    }
+}
+.gallery-item{
+    display: block;
+    margin-bottom: 10px;
+}
