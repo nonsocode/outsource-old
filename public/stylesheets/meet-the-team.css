@@ -81,6 +81,7 @@
 .slide-image.control{
     max-height: 119px;
     overflow: hidden;
+    margin: 0 5px;
 }
 .slide-image.control img{
 
