@@ -79,7 +79,7 @@
     filter: grayscale(1);
 }
 .slide-image.control{
-    max-height: 119px;
+    max-height: 109px;
     overflow: hidden;
     margin: 0 5px;
 }

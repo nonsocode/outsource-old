@@ -77,6 +77,8 @@
                             <div class="mx-3"><img src="https://res.cloudinary.com/parkway/image/upload/v1543506397/outsource/people/17.jpg" alt="..." class="img-thumbnail slide-image"></div>
                             <div class="mx-3"><img src="images/nusaibah-big.jpg" alt="..." class="img-thumbnail slide-image"></div>
                             <div class="mx-3"><img src="images/andrew-big.png" alt="..." class="img-thumbnail slide-image"></div>
+                            <div class="mx-3"><img src="https://res.cloudinary.com/parkway/image/upload/v1543506412/outsource/people/30.jpg" alt="..." class="img-thumbnail slide-image"></div>
+                            <div class="mx-3"><img src="https://res.cloudinary.com/parkway/image/upload/v1543506398/outsource/people/2.jpg" alt="..." class="img-thumbnail slide-image"></div>
                         </div>
                     </div>
                     <div class="col-md-7">
@@ -109,12 +111,28 @@
                                 </blockquote>
                                 <button type="button" class="btn profile-button" data-toggle="modal" data-target="#exampleModal" data-staff="michael">View Profile</button>
                             </div>
+                            <div>
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">Before I officially joined the company, I had the privilege of working for Outsource Global as an intern. I must say, I found myself falling in love with the company even before I understood its values. The company culture, its challenging nature, and room for instant growth left me looking forward to finishing my Degree and join the company. Outsource Global has brought out the best in me and I am therefore enthusiastic to depict as accurately as possible its core values and principles. </p>
+                                    <footer class="blockquote-footer">Adawiyya Hassan, <cite title="Source Title">Human Resource Manager</cite></footer>
+                                </blockquote>
+                                <button type="button" class="btn profile-button" data-toggle="modal" data-target="#exampleModal" data-staff="adawiyya">View Profile</button>
+                            </div>
+                            <div>
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">Outsource Global is a place where dreams are birthed, nurtured and goals are achieved. Working with the Outsource Global team has created an enabling environment for me to put in my best, constantly improve and achieve results.</p>
+                                    <footer class="blockquote-footer">Funmi Alayande, <cite title="Source Title">Head of Accounting</cite></footer>
+                                </blockquote>
+                                <button type="button" class="btn profile-button" data-toggle="modal" data-target="#exampleModal" data-staff="funmi">View Profile</button>
+                            </div>
                         </div>
                         <div class="nav-carousel">
-                            <div class="control slide-image"><img src="images/amal.jpg" alt="..." class="img-thumbnail"></div>
-                            <div class="control slide-image"><img src="https://res.cloudinary.com/parkway/image/upload/c_crop,h_479,w_672,x_160,y_50/v1543506397/outsource/people/17.jpg" alt="..." class="img-thumbnail"></div>
-                            <div class="control slide-image"><img src="images/nusaibah-big.jpg" alt="..." class="img-thumbnail"></div>
-                            <div class="control slide-image"><img src="images/Andrews.png" alt="..." class="img-thumbnail"></div>
+                            <div class="control slide-image"><img src="images/amal.jpg" alt="..." class="img-fluid"></div>
+                            <div class="control slide-image"><img src="https://res.cloudinary.com/parkway/image/upload/c_crop,h_479,w_672,x_160,y_50/v1543506397/outsource/people/17.jpg" alt="..." class="img-fluid"></div>
+                            <div class="control slide-image"><img src="images/nusaibah-big.jpg" alt="..." class="img-fluid"></div>
+                            <div class="control slide-image"><img src="images/Andrews.png" alt="..." class="img-fluid"></div>
+                            <div class="control slide-image"><img src="https://res.cloudinary.com/parkway/image/upload/c_crop,h_479,w_672,x_160,y_50/v1543506412/outsource/people/30.jpg" alt="..." class="img-fluid"></div>
+                            <div class="control slide-image"><img src="https://res.cloudinary.com/parkway/image/upload/c_crop,h_500,w_700,x_0,y_140/v1543506398/outsource/people/2.jpg" alt="..." class="img-fluid"></div>
                         </div>
                     </div>
                 </div>
@@ -331,6 +349,14 @@ In 2013, she founded the Outsource Global, a contact center business process out
                     modal.find('.pop-image').attr("src", "images/andrew-big.png");
                     modal.find('.pop-title').html('<span>Michael Andrews,</span> Chief of Facility and Regulations');
                     modal.find('.pop-details').html(`Michael has more than 10 years of experience in sales, sales management, and as a Director of Business Development. He also has extensive knowledge and expertise in business process outsourcing services within the banking, insurance and telecommunication industry. Prior to his current role, Michael spent 10 years working with a number of global BPO companies as a Director of Business Development for Central and Eastern Europe. In 2006, he joined Transcom Worldwide where he played a key role in the growth of the company and market expansion offering Credit Management solutions.`);
+                } else if (recipient === 'adawiyya') {
+                    modal.find('.pop-image').attr("src", "https://res.cloudinary.com/parkway/image/upload/v1543506412/outsource/people/30.jpg");
+                    modal.find('.pop-title').html('<span>Adawiyya Hassan,</span> Human Resource Manager');
+                    modal.find('.pop-details').html(`Adawiyya Hassan Gwarzo is the Human Resource Manager at Outsource Global. She holds a Bachelor's Degree in Psychology and Human Resource Management from Heriot Watt University Dubai. Testimony`);
+                } else if (recipient === 'funmi') {
+                    modal.find('.pop-image').attr("src", "https://res.cloudinary.com/parkway/image/upload/v1543506412/outsource/people/2.jpg");
+                    modal.find('.pop-title').html('<span>Funmi Alayande,</span> Head of Accounting');
+                    modal.find('.pop-details').html(`Funmi Alayande is an Accounting professional with over 8 years of experience. She holds a Bachelor’s Degree in Accounting from the Ladoke Akintola University of Technology, Nigeria. She has worked for different organizations in different sectors of the economy in Edo and Lagos State. Funmi is currently the Head of Accounting Unit at Outsource Global.`);
                 } else {
                     modal.find('.pop-image').attr("src", "");
                     modal.find('.pop-title').html('');
