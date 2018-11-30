@@ -234,34 +234,38 @@
     }
 }
 
-.testi-col {
-    position: relative;
-    z-index: 200;
-    display: flex;
-    justify-content: center;
-    top: 40px;
-    flex-wrap: nowrap;
-    transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
+@media screen and (min-width: 768px){
+    .testi-col {
+        position: relative;
+        z-index: 200;
+        display: flex;
+        justify-content: center;
+        top: 40px;
+        flex-wrap: nowrap;
+        transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
+    }
+    .testi-col:first-child{
+        z-index: 100;
+        top:0;
+        left: 0;
+        left:3%;
+    }
+    .testi-col:last-child{
+        z-index: 100;
+        top: 0;
+        right: 3%;
+    }
+    .testi-col:hover{
+        z-index: 400 !important;
+        transform: scale(1.1);
+    }
+    .testi-col:hover .testi-card{
+        box-shadow: 0 5px 40px rgba(50, 53, 238, 0.2);
+    }
 }
-.testi-col:first-child{
-    z-index: 100;
-    top:0;
-    left: 0;
-    left:3%;
+.testi-col{
+    margin-bottom: 20px;
 }
-.testi-col:last-child{
-    z-index: 100;
-    top: 0;
-    right: 3%;
-}
-.testi-col:hover{
-    z-index: 400 !important;
-    transform: scale(1.1);
-}
-.testi-col:hover .testi-card{
-    box-shadow: 0 5px 40px rgba(50, 53, 238, 0.2);
-}
-
 .testi-col .testi-card{
     position: relative;
     transition: box-shadow 0.3s ease-in-out;
