@@ -153,3 +153,6 @@
 .staff-col img{
     margin: auto;
 }
+.slick-next {
+    right: 0px!important;
+}
