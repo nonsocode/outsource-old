@@ -9,7 +9,7 @@
         if ($(this).scrollTop() < $('.main-nav').height()) {
             $('.main-nav').css('background-color', 'transparent');
         } else {
-            $('.main-nav').css('background-color', 'rgba(0, 0, 0, 0.5)');
+            $('.main-nav').css('background-color', 'rgba(50, 50, 50, 1)');
         }
     });
     /* code for menu color change on scroll */
