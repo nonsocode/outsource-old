@@ -1,17 +1,17 @@
 <?php
 require_once 'db_connect.inc';
 
-        $state_id = mysql_real_escape_string($_POST['state_id']);
+        $state_id = mysqli_real_escape_string($con, $_POST['state_id']);
 
         $sql = "SELECT local_name, local_id FROM locals WHERE 	state_id = $state_id";//.$departid;
 
-        $result = mysql_query($sql);
-        if (mysql_num_rows($result) < 1) {
+        $result = mysqli_query($con, $sql);
+        if (mysqli_num_rows($result) < 1) {
             echo "Unable to display result";
         } else {
             $lga_arr = array();
 
-            while ($row = mysql_fetch_array($result)) {
+            while ($row = mysqli_fetch_array($result)) {
                 $lga_id = $row['local_id'];
                 $lga_name = $row['local_name'];
 
