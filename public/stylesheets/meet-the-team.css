@@ -76,7 +76,7 @@
 }
 
 .slide-image{
-    filter: grayscale(1);
+    /* filter: grayscale(1); */
 }
 .slide-image.control{
     max-height: 109px;
@@ -85,4 +85,11 @@
 }
 .slide-image.control img{
 
+}
+.team-carousel .slick-slide p {
+    max-height: 500px;
+}
+
+.details-carousel{
+    height: auto !important;
 }
