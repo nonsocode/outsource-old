@@ -9,7 +9,7 @@ echo "Unable to display result";
 } else {
 $users_arr = array();
 
-while ($row = mysqli_fetch_array($ $result)) {
+while ($row = mysqli_fetch_array($result)) {
 $university = $row['university'];
 $university = $row['university'];
 
