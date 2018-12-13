@@ -1,28 +1,13 @@
 <?php
 require_once 'db_connect.inc';
-$con = mysql_connect($host, $user, $password)
-
-or die("Unable to connect");
-
-$db = mysql_select_db($dbname, $con) or die("Database not found");
-
-$departid = @$_POST['state'];
-
-//'Caller Tune charged but not downloaded';
-
-//$_POST['depart'];
-
-//$_POST['depart'];   // department id
-
-
 
 $sql = "SELECT * FROM program";//.$departid;
 
 
 
-$result = mysql_query($sql);
+$result = mysqli_query($con, $sql);
 
-if (mysql_num_rows($result) < 1) {
+if (mysqli_num_rows($result) < 1) {
 
 echo "Unable to display result";
 
@@ -32,7 +17,7 @@ $users_arr = array();
 
 
 
-while ($row = mysql_fetch_array($result)) {
+while ($row = mysqli_fetch_array($result)) {
 
 $course = $row['course'];
 

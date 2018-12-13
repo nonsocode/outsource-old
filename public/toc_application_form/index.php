@@ -39,7 +39,7 @@
 	<span class="icon-bar"></span>
 	<span class="icon-bar"></span>
 	</button>
-	<a class="navbar-brand pull-left" href="www.outsource.ng">
+	<a class="navbar-brand pull-left" href="/">
 	<img src="Admin/TOC-Full-Logo.png" alt="Company_logo"style="width:auto;height:45px;" >
 	</a>
 	</div>
