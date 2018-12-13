@@ -16,7 +16,7 @@ if (mysqli_num_rows($result) < 1) {
         $state_id = $row['state_id'];
         $name = $row['name'];
         
-        $users_arr[] = array("state_id" => $state_id, "state_name" => $name);
+        $users_arr[] = array("id" => $state_id, "name" => $name);
     }
     
     echo json_encode($users_arr);

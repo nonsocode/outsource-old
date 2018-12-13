@@ -66,21 +66,13 @@ jQuery().ready(function() {
 		$('.state').ready(function(){
         $.ajax({
                 url: 'states.php',
-                type: 'post',
-              //  data: {state:state_id},
+                type: 'get',
                 dataType: 'json',
-                success:function(response){
-
-                    var len = response.length;
-
-                   // $('.state').empty();
-                    for( var i = 0; i<len; i++){
-                        var id = response[i]['state_id'];
-                        var name = response[i]['state_name'];
-
-                        $('.state').append("<option value='"+id+"'>"+name+"</option>");
-
-                    }
+                success:function(states){
+                    $stateObj = $('.state')
+                    states.forEach(function(state){
+                        $stateObj.append("<option value='"+state.id+"'>"+state.name+"</option>");
+                    })
                 }
             });
         });
