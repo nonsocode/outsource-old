@@ -7,7 +7,9 @@
     color: #3A3A3A;
     font-weight: 400;
 }
-
+.staff-col.slick-slide:focus{
+  outline: none !important;
+}
 .career-main {
     margin: 150px auto;
 }
